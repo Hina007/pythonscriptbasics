@@ -1,1 +1,7 @@
-print("hello")
+#matlib code
+x= input("name")
+y = input ("school name")
+z = input("school city")
+matlib= f"Hello, my name is {x}, i'm studying in {y} and it is present in {z} city"
+
+print(matlib)
