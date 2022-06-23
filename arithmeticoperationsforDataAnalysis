@@ -2,7 +2,7 @@
 #basic addition, subractions, multiplication, division, power, modulo
 #declare input variables x and y
 x=input("enter first value: ")
-operator=input("enter operator: +, -, *, /: ")
+operator=input("enter operator: +, -, *, / ")
 y=input("enter second value: ")
 x = int(x)
 y = int(y)
