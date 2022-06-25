@@ -44,3 +44,48 @@ newname = oldname
 
 newname("hina", 23)
 
+#function for add, sub, mul
+def calculation(x, y):
+    add = x + y
+    sub = x - y
+    mul = x * y
+    print(f"sum is {add}, sub is {sub}, mul is {mul} ")
+
+calculation(2, 3)
+
+#function for add, sub and mul with input from user
+
+def calculation(x, y):
+    add = x + y
+    sub = x - y
+    mul = x * y
+    print(f"sum is {add}, sub is {sub}, mul is {mul} ")
+
+x = input("enter the value of X: ")
+y = input("ente the value of Y: ")
+x= int(x)
+y= int(y)
+calculation(x, y)
+
+#function that check if roll number is present or not
+
+def checkroll(roll):
+    r = [22, 34, 45, 56, 72]
+    if roll in r:
+        print(f"{roll} is present")
+    else:
+        print("not present")
+
+roll = int(input("enter the rollnumber: "))
+checkroll(roll)
+
+#function to check if the number is even or odd
+
+def checknumber(num):
+    if num % 2 == 0:
+        print(f"({num} is even)")
+    else:
+        print("it is odd")
+
+num = int(input("enter your number: "))
+checknumber(num)
